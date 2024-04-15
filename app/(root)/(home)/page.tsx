@@ -19,8 +19,7 @@ const Home = () => {
       <MainSection>
         <div className=' h-[300px] w-full rounded-[20px] bg-hero bg-cover bg-center '>
           <div className=' flex h-full flex-col justify-between  px-5 py-8 lg:p-11'>
-            {/* TODO  make the time dynamic */}
-            <h2 className='glassmorphism max-w-[270px] rounded py-2 text-center text-base font-normal flex-center gap-2'>
+            <h2 className='glassmorphism w-fit px-4 rounded py-2 text-center text-base font-normal flex-center gap-2'>
               Hello  <UserName />
             </h2>
             <div className=' flex flex-col gap-2'>

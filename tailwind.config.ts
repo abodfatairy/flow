@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      boxShadow: {
+        "3xl": "1px 5px 10px 0px rgba(255,255,255,0.2)",
+      },
       colors: {
         dark: {
           1: "#1C1F2E",

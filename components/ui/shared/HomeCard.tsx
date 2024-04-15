@@ -1,7 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
-import React from "react";
 
 const HomeCard = ({
   img,
@@ -19,7 +18,7 @@ const HomeCard = ({
   return (
     <div
       className={cn(
-        "px-4 py-6 flex flex-col justify-between w-full xl:max-w-[270px] min-h-[260px] rounded-[14px] cursor-pointer",
+        "px-4 py-6 flex flex-col justify-between w-full xl:max-w-[270px] min-h-[260px] rounded-[14px] cursor-pointer shadow-3xl",
         className
       )}
       onClick={handleClick}
